@@ -1,11 +1,11 @@
 #Bubble Sort
-def Bubble_Sort_asc(arr):
+def Bubble_Sort_asc(arr): #Ascending Order
     for i in range(len(arr)):# This is for pass
         for j in range(len(arr)-i-1): # This inner loop is for checking the adjacent elements
             if arr[j]>arr[j+1]:
                arr[j+1],arr[j]=arr[j],arr[j+1]
 
-def Bubble_Sort_desc(arr):
+def Bubble_Sort_desc(arr): #Descending Order
     for i in range(len(arr)):# This is for pass
         for j in range(len(arr)-i-1): # This inner loop is for checking the adjacent elements
             if arr[j]<arr[j+1]:
